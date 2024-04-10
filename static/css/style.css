@@ -73,6 +73,11 @@ body {
     color: rgb(164, 43, 43);
 }
 
+.titulo-contato {
+    text-align: center;
+    color: rgb(164, 43, 43);
+}
+
 
 .curso .botao {
     text-align: center !important;
