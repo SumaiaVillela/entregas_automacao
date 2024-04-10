@@ -138,11 +138,17 @@ body {
     color: rgb(61, 48, 70);
 }
 
+
+.titulo-bio {
+    text-align: center;
+    color: rgb(61, 48, 70);
+}
+
     
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 200%;
+    font-size: 32px;
 }
 
     
