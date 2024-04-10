@@ -112,7 +112,7 @@ A estética da ferramenta também foi cuidadosamente pensada para ganhar destaqu
   }
 ```
 
-A logo da ferramenta, o infográfico e a arte d ocabeçalho foram feitas por mim no Canva.
+A logo da ferramenta, o infográfico e a arte do cabeçalho foram feitas por mim no Canva.
 
 ## Google Sheets
 
@@ -120,7 +120,7 @@ Uma das etapas da entrega era escolher entre três ferramentas para automatizar 
 
 São duas planilhas integradas em diferentes fases do processo. A primeira organiza todas as substâncias derivadas do petróleo que já temos no banco de dados próprio do projeto, para que sejam comparadas com os inputs dos usuários e para a implementação de um dropdown para consulta de todos os termos.
 
-No `Flask, ela é um elemento de `[GET]`:
+No `Flask`, ela é um elemento de `[GET]`:
 
 ```python
         # Captura os termos da primeira coluna da planilha
