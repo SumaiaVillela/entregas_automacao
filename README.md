@@ -1,4 +1,4 @@
-# Trabalhando com automação e construção básica e sites
+# Trabalhando com automação e construção básica de sites
 Este é o repositório de trabalhos desenvolvidos por Sumaia Villela para a disciplina Algoritmos de Automação, do Master em Jornalismo de Dados, Automação e Data Storytelling do Insper.
 
 O trabalho não é feito para ter uma unidade conceitual. São diferentes entregas reunidas, sob orientação do professor, em um mesmo [site](https://entregas-automacao.onrender.com/).
