@@ -1,0 +1,170 @@
+   
+.menu {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: rgb(164, 43, 43);
+}
+
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: #555;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+    
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+    
+.containercontato {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 1px;
+    text-align: center;
+}
+
+.contato {
+    margin-bottom: 3px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+  
+.redes-sociais a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+    
+.redes-sociais a:hover {
+    color: #007bff;
+}
+
+
+.titulo-especial {
+    text-align: center;
+    color: rgb(164, 43, 43);
+}
+
+
+.curso .botao {
+    text-align: center !important;
+}
+
+.botao-site {
+    text-align: center !important;
+}
+    
+.botao {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(164, 43, 43);
+    color: #fff !important;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+}
+
+.curso .img1 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.curso .img2 {
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.curso .img3 {
+    max-width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.curso {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+    
+.descricao {
+    text-align: center
+}
+    
+.titulo-projetos {
+    text-align: center;
+    color: rgb(61, 48, 70);
+}
+
+    
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.curso iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
