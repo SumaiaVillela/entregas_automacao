@@ -43,7 +43,7 @@ def home():
         folha = autentica_sheets("1JP0cZ_TVzicML0hQA6mXJA6w8ecqlgZv96RCxpPTucs")
         all_terms.extend(folha.col_values(1)[1:])
 
-        return render_template('index.html', termos=all_terms)
+        return render_template('dinamica.html', termos=all_terms)
     
     if request.method == 'POST':
         if 'image' in request.files:
