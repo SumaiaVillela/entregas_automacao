@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <!-- Box de resultado -->
+
         <div class="form-box">
             <div class="input-container">
                 <a href="/dinamica" class="back-link">&#8592; Voltar para a página inicial</a>
@@ -23,13 +23,13 @@
             <div class="input-container">        
                 <h3>Você pesquisou:</h3>
                 <p>{{ input}} </p><br>
-            <!-- Resultado gerado dinamicamente -->
+
                 {% for item in resultado %}
                     <h2 class="h2 result">{{ item.termo_encontrado }}</h2>
                         <p>{{ item.tem_derivado }}</p><br>
                         <p>{{ item.explicacao }}</p><br><br>
                 {% endfor %}
-            <!-- Mensagem de erro -->
+
                 <br><p class="guide">Encontrou algum erro na resposta? Escreva para dadosparasumaia@gmail.com</p>
             </div>
         </div>

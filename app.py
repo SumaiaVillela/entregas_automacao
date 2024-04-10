@@ -47,7 +47,7 @@ def home():
     
     if request.method == 'POST':
         if 'image' in request.files:
-            # Processar imagem
+
             image = request.files['image']
             image_path = "temp_image.jpg"
             image.save(image_path)
@@ -60,7 +60,7 @@ def home():
                 return render_template('resultado.html', resultado = resultado)
             
         elif 'texto' in request.form:
-            # Processar texto
+
             input = request.form['texto']
 
             resultado = analisa_texto(input)
@@ -71,7 +71,7 @@ def home():
                 return render_template('resultado.html', resultado = resultado, input=input)
         
         elif 'substance' in request.form:
-            # Se o formulário submetido for o dropdown
+            # Se o formulário for o dropdown
             input = request.form['substance']
 
             resultado = compara_lista(input)

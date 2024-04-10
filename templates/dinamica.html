@@ -40,7 +40,7 @@
         <p>Para educar e conscientizar sobre o tema, desenvolvemos uma ferramenta, atualmente em fase experimental, que combina base de dados humanamente construída e Inteligência Artificial para descobrir se há derivados de petróleo no item que você quer pesquisar:</p>
 
         <div class="form-box">
-          <!-- Título e subtítulo -->
+
           <div class="input-container">
             <h2 hidden>Gota a Gota</h2>
             <h3 hidden>Onde está o petróleo?</p>
@@ -74,13 +74,15 @@
             <form action="/dinamica" method="POST">
               <select id="substance" name="substance">
                 <option value="" selected disabled hidden>Escolha aqui</option>
-                <!-- Loop para gerar as opções do dropdown -->
+
                 {% for termo in termos | sort %}
                 <option value="{{ termo }}">{{ termo }}</option>
                 {% endfor %}
-                <!-- Fim do loop -->
+
               </select>
               <input type="submit" value="Descobrir">
+
+          <p><em>*O robô precisa de um tempo para pensar...pode demorar um minutinho depois que você apertar em "descobrir". Obrigada pela paciência!</em></p>
             </form>
           </div>
         </div>
@@ -109,7 +111,7 @@
         
     </div>
   </div>
-  <!-- Espaço extra para o footer -->
+
   <div style="clear: both;"></div>
   <footer>
     <div class="footer-content">
